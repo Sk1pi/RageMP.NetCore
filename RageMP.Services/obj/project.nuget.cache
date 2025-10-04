@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YTWDfWAUSno=",
+  "success": true,
+  "projectFilePath": "D:\\c# projects\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-rc.1.25451.107\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0-rc.1.25451.107\\microsoft.extensions.logging.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0-rc.1.25451.107\\system.diagnostics.diagnosticsource.10.0.0-rc.1.25451.107.nupkg.sha512"
+  ],
+  "logs": []
+}
