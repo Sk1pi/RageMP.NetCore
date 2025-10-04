@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RageMP.NetCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f86a06ae3a49240b6adaaf919d00861ef364ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("RageMP.NetCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RageMP.NetCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
