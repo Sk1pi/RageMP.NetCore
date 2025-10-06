@@ -14,8 +14,6 @@ To run this script, you must publish the project to create the necessary DLL fil
 
 Build the Project: Open your terminal in the solution root directory and execute the publish command:
 
-Bash
-
 dotnet publish RageMP.NetCore -c Release -o output/RageMP.NetCore_Resource
 Locate Server: Navigate to your RageMP server directory (\packages\).
 
@@ -23,15 +21,11 @@ Deploy: Copy all contents of the newly created output/RageMP.NetCore_Resource fo
 
 Configure conf.json: Add the resource name to your server's configuration file:
 
-JSON
-
 "resources": [
   "my_netcore_resource"
 ]
 3. Database Connection
 Update the connection string in your Program.cs file to point to your PostgreSQL instance:
-
-C#
 
 const string PostgreSQLConnectionString = "Host=localhost;Database=RageMP_DB;Username=user;Password=ВАШ_ПАРОЛЬ";
 Available Server Commands
