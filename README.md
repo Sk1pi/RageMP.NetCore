@@ -1,6 +1,12 @@
 RageMP .NET Core Server: Clean Architecture Implementation
 This project delivers a basic GTA V multiplayer server script for RageMP, built entirely on .NET Core. The script implements all core and bonus features requested in the test task using Clean Architecture principles, including Dependency Injection (DI) and a separation of concerns (CQRS pattern for money management).
 
+/pos	Debug	Displays the player's current X, Y, Z coordinates, Heading, and Dimension.
+/veh [model]	Utility	Spawns a vehicle of the specified model name (e.g., /veh comet).
+/tp [x] [y] [z]	Utility	Teleports the player to the specified coordinates.
+/money	Roleplay	Displays the player's current bank balance.
+/give [player] [amount]	Roleplay	Transfers the specified amount to another player.
+
 Prerequisites and Setup
 1. Requirements
 Platform: .NET 8 SDK (or later)
