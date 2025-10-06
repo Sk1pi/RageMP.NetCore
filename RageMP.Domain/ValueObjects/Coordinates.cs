@@ -2,9 +2,9 @@
 
 public struct Coordinates
 {
-    public float X { get; }
-    public float Y { get; }
-    public float Z { get; }
+    private float X { get; }
+    private float Y { get; }
+    private float Z { get; }
 
     public Coordinates(float x, float y, float z)
     {

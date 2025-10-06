@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\c# projects\\WebApplication2\\RageMP.NetCore\\RageMP.NetCore.csproj": {}
+    "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.NetCore\\RageMP.NetCore.csproj": {}
   },
   "projects": {
-    "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj": {
+    "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj",
+        "projectUniqueName": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj",
         "projectName": "RageMP.Domain",
-        "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj",
+        "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\c# projects\\WebApplication2\\RageMP.Domain\\obj\\",
+        "outputPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "System.Collections.Specialized": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +75,14 @@
         }
       }
     },
-    "D:\\c# projects\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj": {
+    "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# projects\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj",
+        "projectUniqueName": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj",
         "projectName": "RageMP.Infrastructure",
-        "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj",
+        "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\c# projects\\WebApplication2\\RageMP.Infrastructure\\obj\\",
+        "outputPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,11 +103,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj": {
-                "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj"
+              "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj": {
+                "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj"
               },
-              "D:\\c# projects\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj": {
-                "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj"
+              "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj": {
+                "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj"
               }
             }
           }
@@ -151,14 +157,14 @@
         }
       }
     },
-    "D:\\c# projects\\WebApplication2\\RageMP.NetCore\\RageMP.NetCore.csproj": {
+    "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.NetCore\\RageMP.NetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# projects\\WebApplication2\\RageMP.NetCore\\RageMP.NetCore.csproj",
+        "projectUniqueName": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.NetCore\\RageMP.NetCore.csproj",
         "projectName": "RageMP.NetCore",
-        "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.NetCore\\RageMP.NetCore.csproj",
+        "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.NetCore\\RageMP.NetCore.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\c# projects\\WebApplication2\\RageMP.NetCore\\obj\\",
+        "outputPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.NetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,14 +185,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj": {
-                "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj"
+              "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj": {
+                "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj"
               },
-              "D:\\c# projects\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj": {
-                "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj"
+              "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj": {
+                "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Infrastructure\\RageMP.Infrastructure.csproj"
               },
-              "D:\\c# projects\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj": {
-                "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj"
+              "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj": {
+                "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj"
               }
             }
           }
@@ -207,6 +213,12 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.0-rc.1.25451.107, )"
@@ -214,6 +226,14 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[10.0.0-rc.1.25451.107, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -236,14 +256,14 @@
         }
       }
     },
-    "D:\\c# projects\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj": {
+    "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# projects\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj",
+        "projectUniqueName": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj",
         "projectName": "RageMP.Services",
-        "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj",
+        "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Services\\RageMP.Services.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\c# projects\\WebApplication2\\RageMP.Services\\obj\\",
+        "outputPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -264,8 +284,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj": {
-                "projectPath": "D:\\c# projects\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj"
+              "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj": {
+                "projectPath": "D:\\RagempServer\\ragemp-server-files-main\\dotnet\\resources\\WebApplication2\\RageMP.Domain\\RageMP.Domain.csproj"
               }
             }
           }
@@ -286,6 +306,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[10.0.0-rc.1.25451.107, )"

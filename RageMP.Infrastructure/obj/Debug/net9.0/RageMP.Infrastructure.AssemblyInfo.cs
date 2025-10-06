@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RageMP.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f86a06ae3a49240b6adaaf919d00861ef364ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dde3fa8b0ce4305dee8d3299ea8a1db7567b96d")]
 [assembly: System.Reflection.AssemblyProductAttribute("RageMP.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RageMP.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
